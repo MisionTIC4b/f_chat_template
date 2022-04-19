@@ -20,7 +20,7 @@ class ChatPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Chat App"),
+        title: Text("Chat App ${authenticationController.userEmail()}"),
         actions: [
           IconButton(onPressed: null, icon: Icon(Icons.sailing_rounded)),
           IconButton(
